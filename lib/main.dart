@@ -34,7 +34,7 @@ void main() async {
   // Wait for Settings to be ready
   await Settings.init();
   // Wait for Notifications to be ready
-  await NotificationService().init();
+  // await NotificationService().init();
   runApp(
     LocalizedApp(
       delegate,
